@@ -8,11 +8,11 @@
     <image align="center" width="400" src='./public/telegram_logo.png' />
   </p>
 
-  <!-- <p align="center">
+  <p align="center">
     <br />
-    <a href="https://peworld-lake.vercel.app/"><strong>View Demo</strong></a>
+    <a href="https://telegramchat.vercel.app/"><strong>View Demo</strong></a>
     <br />
-  </p> -->
+  </p>
 </p>
 
 <!-- Table of Contents -->

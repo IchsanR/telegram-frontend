@@ -42,14 +42,26 @@
 
 
 @media screen and (max-width:480px) {
+
+  .desktop {
+    display: none;
+  }
   
   .chatList {
     height: 480px;
   }
 
   .rightPanel{
-    display: none;
     border-right: 1px solid #E5E5E5;
+  }
+
+  .chatMessage {
+    background-color: #FAFAFA;
+  }
+
+  .chatArea {
+    position: fixed;
+    bottom: 0;
   }
 }
 

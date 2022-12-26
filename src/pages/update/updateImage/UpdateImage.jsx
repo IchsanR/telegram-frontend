@@ -81,7 +81,7 @@ const UpdateImage = () => {
 							<form onSubmit={(e) => updatePhoto(e)}>
 								<div className="d-flex">
 									<img
-										src={`${process.env.REACT_APP_BACKEND_URL}/${profile.profile_pic}`}
+										src={`${profile.profile_pic}`}
 										alt=""
 										className={`${style.profilePic}  mx-auto`}
 									/>

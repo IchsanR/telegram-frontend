@@ -1,6 +1,6 @@
 import React, { Fragment, useEffect } from "react";
 import { Helmet } from "react-helmet";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import style from "./style.module.css";
 import { useState } from "react";
 import axios from "axios";
@@ -12,7 +12,6 @@ import paper from "../../assets/image/Chat.png";
 import laptop from "../../assets/image/Device.png";
 
 const Profile = () => {
-	const navigate = useNavigate();
 	const [profile, setProfile] = useState([]);
 
 	useEffect(() => {
@@ -50,7 +49,7 @@ const Profile = () => {
 						<div className="d-flex col-12 my-4">
 							<div className="me-4">
 								<img
-									src={`${process.env.REACT_APP_BACKEND_URL}/${profile.profile_pic}`}
+									src={`${profile.profile_pic}`}
 									alt=""
 									className={`${style.profilePic}`}
 								/>

@@ -13,7 +13,7 @@ import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import axios from "axios";
 
-const Header = () => {
+const HeaderMobile = () => {
 	const navigate = useNavigate();
 	const [profile, setProfile] = useState([]);
 
@@ -41,7 +41,7 @@ const Header = () => {
 		return navigate("/");
 	};
 	return (
-		<>
+		<div>
 			<div className="container-fluid row">
 				<div className="col-12 d-flex">
 					<div>
@@ -49,19 +49,18 @@ const Header = () => {
 					</div>
 					<div className={`ms-auto ${style.menus}`}>
 						<button
-							className={`btn`}
+							class="btn"
 							type="button"
 							data-bs-toggle="offcanvas"
-							data-bs-target="#offcanvasWithBothOptions"
-							aria-controls="offcanvasWithBothOptions">
+							data-bs-target="#offcanvasRight"
+							aria-controls="offcanvasRight">
 							<img src={menu} alt="" />
 						</button>
 						<div
-							className="offcanvas offcanvas-end"
-							data-bs-scroll="true"
-							tabIndex="-1"
-							id="offcanvasWithBothOptions"
-							aria-labelledby="offcanvasWithBothOptionsLabel">
+							class="offcanvas offcanvas-end"
+							tabindex="-1"
+							id="offcanvasRight"
+							aria-labelledby="offcanvasRightLabel">
 							<div className="offcanvas-header">
 								<button
 									type="button"
@@ -175,8 +174,8 @@ const Header = () => {
 					</form>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 };
 
-export default Header;
+export default HeaderMobile;

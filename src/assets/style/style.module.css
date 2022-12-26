@@ -50,6 +50,11 @@
   height: 60px;
 }
 
+.mobileHeader {
+  position: fixed;
+  top: 0;
+}
+
 @media screen and (min-width: 500px) {
   .backButtons {
     display: none;

@@ -72,6 +72,13 @@ Telegram is a realtime chat application. Users are able to find other user conta
 
 <details>
   <summary>
+    Menu
+  </summary>
+<img src="/screenshots/menu.png" alt="chat" />
+</details>
+
+<details>
+  <summary>
     Profile Page
   </summary>
 <img src="/screenshots/profile.png" alt="profile page" />

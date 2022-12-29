@@ -33,7 +33,7 @@
 
 ## About The Project
 
-Peworld is a web application where job seekers and recruiters meet. In this application, the you can create an account and upload your portfolio so the recruiters can see and if they are interseted about you, they can hire you.
+Telegram is a realtime chat application. Users are able to find other user contacts and send messages and files to them. Users might take a look at their profile information, such as bio, email and photo profile.
 
 ### Project Structure
 
@@ -152,5 +152,6 @@ Contributions are what make the open source community such an amazing place to b
 ## Related Project
 
 :rocket: [`Telegram API (Backend)`](https://github.com/IchsanR/telegram-backend)
+:rocket: [`Telegram Chat (Demo)`](https://telegramchat.vercel.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
